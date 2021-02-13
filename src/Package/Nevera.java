@@ -44,7 +44,7 @@ public class Nevera extends Operaciones{
             if(litros_1>120){
                 while(litros_1>=120){
                     valor_Neveras=valor_Neveras+(valor_Neveras*0.05);
-                    litros_1-=5;
+                    litros_1-=10;
                 }
             }
         }
